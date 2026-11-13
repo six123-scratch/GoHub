@@ -12,7 +12,7 @@
 <div class="layout"><aside class="side"><button>⌂ Beranda</button><button>▣ Shorts</button><button>▤ Subscription</button><hr><button>◴ Histori</button><button>♡ Video disukai</button><hr><button>♬ Musik</button><button>⌁ Live</button></aside><main><nav class="chips" id="chips"></nav><h2 id="heading">Cari video dari YouTube</h2><div id="status" class="status">Masukkan kata pencarian, misalnya “musik Indonesia”.</div><section id="grid" class="grid"></section></main></div>
 <script>
 // Tempel API key BARU milikmu di bawah ini. Jangan unggah file ini ke GitHub.
-const YOUTUBE_API_KEY = "TEMPEL_KEY_BARU_DI_SINI";
+const YOUTUBE_API_KEY = "AIzaSyC8fNUQyZbpk5H5miDkqNlKmj-ZNR9yTrg";
 const categories=["Semua","Musik","Gaming","Berita","Live","Tutorial","Podcast","Desain"];
 const chips=document.querySelector('#chips'),q=document.querySelector('#q'),grid=document.querySelector('#grid'),status=document.querySelector('#status');
 chips.innerHTML=categories.map((x,i)=>`<button class="chip ${i?'':'active'}" data-q="${x==='Semua'?'':x}">${x}</button>`).join('');
